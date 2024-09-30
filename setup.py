@@ -23,6 +23,6 @@ setuptools.setup(
     install_requires=[
         "numpy>=1.26.4",
         "pygame>=2.6.0",
-        "torch>=2.3.1"
+        "torch>=2.3.1",
     ],
 )
