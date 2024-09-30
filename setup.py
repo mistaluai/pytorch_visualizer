@@ -11,7 +11,7 @@ setuptools.setup(
     description="A neural network visualization engine, built for pytorch",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Tony-Ale/quantagrad",
+    url="https://github.com/Tony-Ale/pytorch_visualizer",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
