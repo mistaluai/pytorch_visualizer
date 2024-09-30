@@ -1,5 +1,5 @@
 # Neural Network Visualization Tool
-[![Watch the video](https://raw.githubusercontent.com/Tony-Ale/pytorch_visualizer/main/assets/demo_pic.jpg)](https://raw.githubusercontent.com/Tony-Ale/pytorch_visualizer/main/assets/nn_visualization_demo.mp4)
+[![Watch the video](https://raw.githubusercontent.com/Tony-Ale/pytorch_visualizer/master/assets/demo_pic.jpg)](https://raw.githubusercontent.com/Tony-Ale/pytorch_visualizer/master/assets/nn_visualization_demo.mp4)
 This tool is designed to provide a dynamic visualization of neural network training. It integrates with a PyTorch model's forward pass as a decorator, allowing you to visualize how neural network training occurs.
 
 ### Features:
