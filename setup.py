@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pytorch_visualizer",
-    version="0.1.0",
+    version="0.1.2",
     author="Oluwaseun Ale-Alaba",
     author_email="carmichael8821@gmail.com",
     description="A neural network visualization engine, built for pytorch",
@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Tony-Ale/pytorch_visualizer",
     packages=setuptools.find_packages(),
+    include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

@@ -3,6 +3,7 @@ import pygame
 from typing import Dict, TYPE_CHECKING
 from .generators_and_utility_functions import convert_list_to_generator, map_to_comp_weights
 from .constants import String_Constants
+import os
 
 if TYPE_CHECKING:
     from .persistent_vars import Persistent_Variables
@@ -35,7 +36,10 @@ class GlobalParameters(String_Constants):
         pygame.font.init()
 
         try:
-            cls.font = pygame.font.Font('./pytorch_visualizer/ARIAL.TTF', 18)
+            current_dir = os.path.dirname(__file__)  # Current file's directory
+            font_folder = os.path.join(current_dir, 'font')
+            font_path = os.path.join(font_folder, 'ARIAL.TTF')  # Create path to font file
+            cls.font = pygame.font.Font(font_path, 18)
         except:
             cls.font = pygame.font.SysFont(None, 20)
 

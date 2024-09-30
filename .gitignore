@@ -11,3 +11,4 @@ pytorch_visualizer.egg-info/
 
 # ignore other files
 demo.py
+MANIFEST.in
