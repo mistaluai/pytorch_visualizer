@@ -19,7 +19,7 @@ class Components(ScreenState, ABC):
         #self.node_width = 3
 
     @abstractmethod
-    def get_component():
+    def get_component(self):
         """Abstract method that must be implemented by subclasses"""
         pass
 

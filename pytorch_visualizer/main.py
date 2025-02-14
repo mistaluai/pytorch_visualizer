@@ -159,7 +159,7 @@ def activate_next_func(obj:Persistent_Variables, func_id:tuple):
     elif func_id_name == Persistent_Variables.BACKWARD_PASS:
         obj_dict[func_id].activate_backward_pass = True
 
-def activate_next_local_func(obj:Persistent_Variables, func_ids:tuple|Iterable):
+def activate_next_local_func(obj:Persistent_Variables, func_ids):
     """func_ids: function ids to activate"""
     if isinstance(func_ids, tuple):
         func_ids = [func_ids]

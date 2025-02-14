@@ -81,7 +81,7 @@ def update_defualt_states_of_components(component_types:Iterable[dict[str, objec
         for component in components.values():
             update_component_default_state(component, var_dict, update_all)
 
-def update_component_default_state(obj:object, var_dict:dict|list[str]=None, update_all=True):
+def update_component_default_state(obj:object, var_dict=None, update_all=True):
     """
     var_dict: to update specific variables, update_all must be set to False
     var_dict is either a dictionary or a list, if it is a dict it updates the property (keys) with the stated value

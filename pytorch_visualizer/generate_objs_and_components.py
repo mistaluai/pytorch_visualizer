@@ -126,7 +126,7 @@ def share_backward_pass_data_multiple_epoch(backward_pass_data:list[list[list[fl
     
     return activation_data_dict
 
-def share_data_single_epoch(data_per_epoch:list[list[int|float]], execution_order:list[tuple], data_dict:dict[tuple, list]=None):
+def share_data_single_epoch(data_per_epoch, execution_order:list[tuple], data_dict:dict[tuple, list]=None):
     stop_index = 0
     for func_id in execution_order:
         if func_id[0] == Persistent_Variables.FORWARD_PASS:

@@ -53,7 +53,7 @@ class Persistent_Variables(GlobalParameters):
 
         # Temporary storage 
         self.buffer = None 
-        self.extra_data:dict[str, list|Any] = {} # a store of miscelleanous data to be used during visualization
+        self.extra_data:dict[str, list] = {} # a store of miscelleanous data to be used during visualization
         self.local_execution_order = local_execution_order
 
         # general conditional
